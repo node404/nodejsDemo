@@ -8,7 +8,6 @@ function route(handle, pathname, response) {
 		response.writeHead(404, {"ContentType":"text/plain"});
 		response.write("404 Not Found");
 		response.end();
-		
 		//return "404 Not Found" ;
 	}
 }
